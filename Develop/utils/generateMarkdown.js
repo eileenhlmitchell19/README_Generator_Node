@@ -22,4 +22,25 @@ ${renderLicenseBadge(data.license)}
 `;
 }
 
-module.exports = generateMarkdown;
+// module.exports = generateMarkdown;
+
+// Contents.link = (guide, article) => {
+//   const guideLink = document.createElement('a'),
+//   const articleLink = document.createElement('a'),
+//   const articleName = article.innerText,
+//   const articleId = article.id || Contents.id(articleName);
+ 
+//   article.id = articleId;
+ 
+//   articleLink.href = '#' + articleId;
+ 
+//   while (article.childNodes.length) {
+//     articleLink.appendChild(article.childNodes[0], articleLink);
+//   }
+ 
+//   article.appendChild(articleLink);
+ 
+//   guideLink.appendChild(document.createTextNode(articleName));
+//   guideLink.href = '#' + articleId;
+//   guide.insertBefore(guideLink, guide.firstChild);
+// };
